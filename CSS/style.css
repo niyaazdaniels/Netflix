@@ -60,16 +60,24 @@ img:hover {
 }
 #user-icon {
     position: absolute;
-    right: 90px;
+    right: 70px;
     color: whitesmoke;
     top: 22px;
+    width: 100px;
     display: inline-block;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     cursor: pointer;
 }
-#user-icon:hover {
+#user-icon i:hover {
     background-color: darkred;
+    width: 100px;
     color: white;
-    padding: 5px;
     border-radius: 20px;
+}   
+#login-page {
+    background-color: rgb(16, 16, 16);
+}
+#text-name {
+    font-size: 1.6rem;
+    font-family: Montserrat;
 }
