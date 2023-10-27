@@ -4,91 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/c02c6a8753.js" crossorigin="anonymous"></script>
-    <!-- CSS -->
     <link rel="stylesheet" href="/CSS/style.css">
+
 </head>
-<body class="background bg-black">
-    <div class="container">
-        <div class="heading" id="heading">
-            <img src="/assets/logo.jpg" alt="Netflix" width="90px" height="auto">
-        </div>
-        <div class="container" id="row">
-            <a href="">TV Shows</a>
-            <a href="">Movies</a>
-            <a href="">Recently Added</a>
-            <a href="">My List</a>
-        </div>
-        <div class="icons" id="icons">
-            <i class="fa-brands fa-chromecast"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <div class="icons" id="user-icon">
-            <a href="/html/login.html"> <i class="fa-regular fa-circle-user w-25"></a></i>
+<body>
+    <div class="header">
+
+        <nav>
+            <img src="/assets/logo.png" class="logo">
+            <div>
+               <a href="/html/signin.html"><button class="language-btn">English <img src="/assets/down-icon.png"></button>
+                <button>Sign In</button></a>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create to restart your membership</p>
+
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit"> Get Started</button>
+            </form>
         </div>
     </div>
-    <!-- Images -->
-    <div class="container-fluid">
+
+    <div class="features">
+
         <div class="row">
-            <h2 class="h2 text-light mt-5 float-start d-block" id="h2">New Releases</h2>
-            <div class="image" id="image-row">
-                <img src="/assets/img1.jpg" width="225px" height="300px">
-          
-                <img src="/assets/img2.jpg" width="225px" height="300px">
-          
-                <img src="/assets/img3.jpg" width="225px" height="300px">
+
+            <div class="text-col">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on snart TVs, Platstation, Xbox, Chromecast, Apple TV, Blu-ray players and more</p>
+            </div>
+            <div class="img-col">
+                <img src="/assets/feature-1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="/assets/feature-2.png">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
             
-                <img src="/assets/img4.jpg" width="225px" height="300px">
+        </div>
+        <div class="row">
+
+            <div class="text-col">
+                <h2>Watch everywhere.</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="/assets/feature-3.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="/assets/feature-4.png">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them - free with your membership</p>
+            </div>
            
-                <img src="/assets/img5.jpg" width="225px" height="300px">
-
-                <img src="/assets/img6.jpg" width="225px" height="300px">
-            </div>
-        <div id="container" class="container-fluid">
-            <div class="row">
-                <h2 class="h2 text-light"> Other Shows</h2>
-                <div class="image" id="image-row">
-                    <img src="/assets/img7.jpg" width="225px" height="300px">
-              
-                    <img src="/assets/img8.jpg" width="225px" height="300px">
-              
-                    <img src="/assets/img9.jpg" width="225px" height="300px">
-                
-                    <img src="/assets/img10.jpg" width="225px" height="300px">
-               
-                    <img src="/assets/img12.jpg" width="225px" height="300px">
-    
-                    <img src="/assets/img13.jpeg" width="225px" height="300px">
-                </div>
-            </div>
-        </div>
-        <div id="container" class="container-fluid">
-            <div class="row">
-                <h2 class="h2 text-light">Trending</h2>
-                <div class="image" id="image-row">
-                    <img src="/assets/img11.jpg" width="225px" height="300px">
-              
-                    <img src="/assets/img12.jpg" width="225px" height="300px">
-              
-                    <img src="/assets/img5.jpg" width="225px" height="300px">
-                
-                    <img src="/assets/img1.jpg" width="225px" height="300px">
-               
-                    <img src="/assets/img4.jpg" width="225px" height="300px">
-    
-                    <img src="/assets/img14.jpeg" width="225px" height="300px">
-                </div>
-            </div>
         </div>
 
-        </div>
     </div>
+
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <ul class="accordion">
+
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">What is Netflix</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Where can i watch?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">How do i cancel?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth">
+                <label for="fifth">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" name="accordion" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum in quod placeat unde? Atque vel quod dolores enim cumque tempora modi eius aut sapiente soluta iusto distinctio, consectetur at nulla itaque similique veritatis exercitationem asperiores id, possimus, quisquam nostrum?</p>
+                </div>
+            </li>
+        </ul>
+
+        <small>Ready to watch? Enter your email to create to restart your membership</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit"> Get Started</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h2>Questions? call 000-000-000-000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn">English <img src="/assets/down-icon.png" alt=""></button>
+        <p class="copyright-txt">Netflix South Africa</p>
+
+    </div>
+   
 </body>
 </html>
